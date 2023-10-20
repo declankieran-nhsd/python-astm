@@ -20,9 +20,3 @@ jobs:
 
       - name: Run tests
         run: pytest --cache-clear --cov > pytest-coverage.txt
-
-      - name: Get Cover 
-        uses: orgoro/coverage@v3.1
-        with:
-          coverageFile: pytest-coverage.txt
-          token: ${{ secrets.GITHUB_TOKEN }}
