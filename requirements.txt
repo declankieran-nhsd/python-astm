@@ -21,7 +21,6 @@ packaging==21.3
 pluggy==1.0.0
 py==1.11.0
 pycodestyle==2.10.0
-pycups==2.0.1
 pyinotify==0.9.6
 pyparsing==3.0.7
 PySimpleSOAP==1.16.2
