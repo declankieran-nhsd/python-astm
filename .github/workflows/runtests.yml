@@ -25,3 +25,4 @@ jobs:
         uses: orgoro/coverage@v3.1
         with:
           coverageFile: pytest-coverage.txt
+          token: ${{ secrets.GITHUB_TOKEN }}
