@@ -21,7 +21,7 @@ jobs:
       - name: Run tests
         run: pytest --cache-clear --cov > pytest-coverage.txt
 
-      - name: Comment coverage
-        uses: coroo/pytest-coverage-commentator@v1.0.2
+      - name: Get Cover 
+        uses: orgoro/coverage@v3.1
         with:
-          pytest-coverage: pytest-coverage.txt
+          coverageFile: pytest-coverage.txt
