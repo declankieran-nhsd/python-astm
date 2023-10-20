@@ -7,7 +7,7 @@
 # you should have received as part of this distribution.
 #
 
-from collections import Iterable
+from collections.abc import Iterable
 from .compat import unicode
 from .constants import (
     STX, ETX, ETB, CR, LF, CRLF,
