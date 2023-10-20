@@ -7,7 +7,6 @@ charset-normalizer==2.0.12
 click==8.1.2
 distro==1.5.0
 distro-info==1.0
-feedparser==5.2.1
 Flask==2.1.1
 httplib2==0.18.1
 idna==2.10
